@@ -57,7 +57,7 @@ License
 Pyramid is offered under the BSD-derived `Repoze Public License
 <http://repoze.org/license.html>`_.
 
-Authors
+Author
 -------
 
 Pyramid is made available by `Agendaless Consulting <https://agendaless.com>`_
