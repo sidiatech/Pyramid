@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@master
       - name: Run Snyk to check for vulnerabilities
         uses: snyk/actions/python-3.8@master
-        continue-on-error: true # To make sure that SARIF upload gets called
+        continue-on-error: true # To make sure that SARIF upload gets called correctly
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
